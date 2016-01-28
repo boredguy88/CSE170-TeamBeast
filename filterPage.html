@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Filter Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Friendler</h1>
+		<p>Find a fellow Friendler by choosing what type of connection you would like to have!</p>
+	</div>
+
+	<form id="filterForm" role="form">
+		<div class="form-group">
+			<label for="lookingFor">I am looking for:</label>
+			<select class="form-control" id="lookingFor">
+				<option value="anything">Anything</option>
+				<option value="studying">Study Buddy</option>
+				<option value="exercise">Exercise Buddy</option>
+				<option value="eat">Food Buddy</option>
+				<option value="party">Party Buddy</option>
+				<option value="hangout">Hangout Buddy</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="age">What is the age range?:</label>
+			<input type="text" name="ageMin" style="width: 32px"> to 
+			<input type="text" name="ageMax" style="width: 32px">
+		</div>
+		<div class="form-group">
+			<label for="gender">What is their gender?:</label>
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="other">Other
+			<input type="radio" name="gender" value="any">Any
+		</div>
+		<div class="form-group">
+			<label for="friendlyPoints">How many friendly points should they have?:</label>
+			<input type="text" name="friendlyMin" style="width: 64px"> to 
+			<input type="text" name="friendlyMax" style="width: 64px">
+		</div>
+		<div class="form-group">
+			<input type="submit" value="Find Connection Now!">
+		</div>
+	</form>
+</body>
+</html>
