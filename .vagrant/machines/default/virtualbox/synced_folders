@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/CSE170-TeamBeast":{"mount_options":["dmode=775,fmode=0700"],"guestpath":"/home/vagrant/CSE170-TeamBeast","hostpath":"/home/alphaaabet/Desktop/CSE170-TeamBeast","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/alphaaabet/Desktop/CSE170-TeamBeast","disabled":false,"__vagrantfile":true}}}
